@@ -1,0 +1,104 @@
+/* HTML Styles */
+html{
+   
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    background: radial-gradient(circle, hsl(240, 100%, 40%) 65%,black );
+}
+    /* logo */
+header img{
+    height: 100px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    display: block;
+}
+body{
+    background-color: hsl(209, 76%, 90%);
+    background-color: rgb(210, 230, 249);
+}
+    /* container collapse I think? */
+:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Nav Styles*/
+
+nav.tabs{
+    margin: 10px;
+    margin-left: 10em;
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+nav.tabs a{
+    float: left;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 20px;
+    color: black;
+}
+nav.tabs a:hover{
+    color: navy;
+}
+nav.tabs a:active{
+    color: orange;
+}
+
+/* Grids Styles */
+
+div.row{
+    clear: both;
+ }
+div.row::after{
+   clear: both;
+   content: "";
+   display: table;
+}
+div[class^="col-"]{
+   float: left;
+}
+div.col-1-1{width:100%}
+div.col-1-2{width:50%}
+div.col-1-3{width:33%}
+div.col-1-4{width:25%}
+div.col-2-3{width:67%}
+div.col-3-4{width:74%}
+
+div{
+   outline-width: 1px;
+   outline-style: solid;
+   outline-color: red;
+   outline: 1px solid red; /* in that order*/
+} 
+
+/* Top Section Styles */
+section.top{
+    display: block;
+}
+section.top div#logo{
+    background-color: hsl(210, 87%, 50%);
+}
+section.top div#intro{
+    text-align: center;
+    /* margin-left: auto;
+    margin-right: auto; */
+    background-color: rgb(96, 176, 244);
+}
+section.top img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 200px;
+}
+
+/* Bottom Section Styles */
+section.bottom{
+
+}
