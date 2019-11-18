@@ -1,6 +1,5 @@
 /* HTML Styles */
 html{
-   
     width: 960px;
     margin-right: auto;
     margin-left: auto;
@@ -73,49 +72,29 @@ div{
    outline-style: solid;
    outline-color: red;
    outline: 1px solid red; /* in that order*/
-}
-
-/* Top Section Styles */
-section.top{
-    display: block;
-}
-section.top div#logo{
-    background-color: #003459;
-}
-section.top div#intro{
-    text-align: center;
-    /* margin-left: auto;
-    margin-right: auto; */
-    background-color: #007EA7;
-}
-section.top img{
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    height: 200px;
-}
-section.top h3{
-    color: rgb(220, 220, 220);
-}
-/* Bottom Section Styles */
-section.bottom{
-    background-color: #60b0f4;
-    height: 100%;
-}
-
+}   
 
 /* Footer Styles */
 footer{
     text-align: center;
     color: #00171F;
 }
-/*
-footer{
+
+/* ================================================================= */
+
+/* Top Section Styles */
+section.top{
+    background-color: #007EA7;
+    color: #00171F;
     text-align: center;
-    position: absolute;
-    bottom: 0%;
-    width: 100%;
 }
-*/
+
+
+/* Bottom Section Styles */
+section.bottom{
+    background-color: #003459;
+    color: rgb(220, 220, 220);
+    text-align: center;
+}
+
+
