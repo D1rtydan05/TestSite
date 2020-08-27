@@ -67,12 +67,12 @@ div.col-1-4{width:25%}
 div.col-2-3{width:67%}
 div.col-3-4{width:74%}
 
-div{
+/* div{
    outline-width: 1px;
    outline-style: solid;
    outline-color: red;
-   outline: 1px solid red; /* in that order*/
-}   
+   outline: 1px solid red; 
+}    */
 
 /* Footer Styles */
 footer{
@@ -80,3 +80,25 @@ footer{
     color: #00171F;
 }
 /* ================================================================= */
+
+/* Top Section Styles */
+section.top{
+    background-color: #007EA7;
+    color: #00171F;
+    text-align: center;
+}
+
+
+/* Bottom Section Styles */
+section.bottom{
+    background-color: #003459;
+    color: rgb(220, 220, 220);
+    text-align: center;
+}
+
+div a#link{
+    text-decoration: none;
+    background-color: rgb(56, 56, 56);
+    color: #00A8E8;
+    font-size: 20px;
+}
